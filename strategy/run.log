@@ -1,0 +1,46 @@
+(88211, 49)
+Training Data Shape Change
+Before Selection:  (35583, 41)
+After Selection: (35583, 16)
+Test Data Shape Change
+Before Selection:  (52628, 41)
+After Selection: (52628, 16)
+Selected Features
+['GROSS_PROFIT', 'TOT_OPER_EXP', 'INCOME_CONT_OPER', 'EPS_BASIC_CONSOL', 'DILUTION_FACTOR', 'NORM_AFT_TAX_INCOME', 'TOT_CURR_ASSET', 'TOT_ASSET', 'TOT_SHARE_HOLDER_EQUITY', 'TOT_LIAB_SHARE_HOLDER_EQUITY', 'TANG_STOCK_HOLDER_EQUITY', 'BEG_CASH', 'END_CASH', 'FREE_CASH_FLOW', 'FREE_CASH_FLOW_PER_SHARE', 'OPER_CASH_FLOW_PER_SHARE']
+Decision Tree:                  0.5123698411491981
+AdaBoost:                       0.5784373337386942
+Logistic Regression:            0.5931063312305237
+Linear SVM:                     0.5941894048795318
+Calibrated Linear SVM:          0.5939993919586531
+Random Forest:                  0.5099756783461276
+GradientBoost:                  0.5805654784525348
+Voting Classifier:              0.5910731929771225
+PREDICT  PERFORMANCE
+-1       -1                96
+          1               165
+ 1       -1             21202
+          1             31165
+
+              Return       STD  Sharpe Ratio
+Portfolio1  2.125543  0.069956      0.449111
+Portfolio2  2.132676  0.081470      0.387348
+Portfolio3  2.040183  0.089191      0.333107
+Total       2.099467  0.000000      0.000000
+SP500       1.806774  0.046651      0.528343
+
+
+Trade 2
+              Return       STD  Sharpe Ratio
+Portfolio1  2.177748  0.068859      0.470948
+Portfolio2  2.198963  0.079833      0.411266
+Portfolio3  2.099498  0.087947      0.351394
+Total       2.158737  0.000000      0.000000
+SP500       1.806774  0.046651      0.528343
+
+Trade 4
+             Return       STD  Sharpe Ratio
+Portfolio1  1.836579  0.078926      0.320925
+Portfolio2  2.833340  0.064743      0.670255
+Portfolio3  2.527796  0.084380      0.457923
+Total       2.399238  0.000000      0.000000
+SP500       1.806774  0.046651      0.528343
